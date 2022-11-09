@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+        body {
+            font-family: 'Space Mono', monospace;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Rendezvous with Rama</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Rendezvous with Rama</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light ms-5" aria-current="page" href="#book"> <i class="bi bi-book"></i> Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light ms-5" href="#pricing"><i class="bi bi-tag"></i> Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light ms-5" href="#film"><i class="bi bi-film"></i> Film Release</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light ms-5" href="#contact"><i class="bi bi-person-lines-fill"></i> Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Book section start -->
+
+      <section class="bg-secondary text-dark-50 py-5" id="book">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-md-5">
+                    <p class="display-3 text-center text-md-start">Rendezvous with Rama</p>
+                    <p class="display-5 text-center text-md-start">Arthur C. Clarke</p>
+                    <h4 class="text-center text-md-start">Award-winning novel</h4>
+                
+                <!-- Offcanvas start -->
+                <a class="btn btn-dark d-block my-3" data-bs-toggle="offcanvas" href="#more-books" role="button" aria-controls="more-books"> <i class="bi bi-book"></i> More books by Arthur C. Clarke
+                  </a>
+
+                  <div class="offcanvas offcanvas-start" tabindex="-1" id="more-books" aria-labelledby="more-books">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title bolder text-center">More books by Arthur C. Clarke</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <div>
+                        Browse from the selection of books available in our online library.
+                      </div>
+
+                      <div class="row justify-content-center g-4 my-5">
+                        <div class="col-8">
+                          <div class="card">
+                            <img src="clarke1.jfif" alt="2001: A Space Odyssey" class="img-fluid rounded" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="2001: A Space Odyssey">
+                            <div class="card-body">
+                              <h5 class="card-title">2001: A Space Odyssey</h5>
+                              <p class="card-text">A mysterious alien civilization uses a large crystalline monolith to investigate worlds across the galaxy and encourage the development of intelligent life.</p>
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-8">
+                          <div class="card">
+                            <img src="clarke2.jfif" alt="Childhood's End" class="img-fluid rounded" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Childhood's End">
+                            <div class="card-body">
+                              <h5 class="card-title">Childhood's End</h5>
+                              <p class="card-text">The story follows the peaceful alien invasion of Earth by the mysterious Overlords.
+                              </p>
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-8">
+                          <div class="card">
+                            <img src="clarke3.jpg" alt="The Sands of Mars" class="img-fluid rounded" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="The Sands of Mars">
+                            <div class="card-body">
+                              <h5 class="card-title">The Sands of Mars</h5>
+                              <p class="card-text">Martin Gibson, a famous science fiction author, is travelling to Mars, as a guest of the crew of the spaceship Ares.</p>
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-8">
+                          <div class="card">
+                            <img src="clarke4.jpg" alt="Time's Eye" class="img-fluid rounded" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Time's Eye">
+                            <div class="card-body">
+                              <h5 class="card-title">Time's Eye</h5>
+                              <p class="card-text">The story begins with a series of individuals from different time periods encountering motionless, hovering spheres—and each other—in the region of the Northwest Frontier.</p>
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-8">
+                          <div class="card">
+                            <img src="clarke5.jpg" alt="The Fountains of Paradise" class="img-fluid rounded" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="The Fountains of Paradise">
+                            <div class="card-body">
+                              <h5 class="card-title">The Fountains of Paradise</h5>
+                              <p class="card-text">Set in the 22nd century, it describes the construction of a space elevator.</p>
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-8">
+                          <div class="card">
+                            <img src="clarke6.jpg" alt="2010: Odyssey Two" class="img-fluid rounded" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="2010: Odyssey Two">
+                            <div class="card-body">
+                              <h5 class="card-title">2010: Odyssey Two</h5>
+                              <p class="card-text">Set in the year 2010, the plot centres on a joint Soviet-US mission aboard the Soviet spacecraft The Cosmonaut Alexei Leonov. </p>
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                          </div>
+                        </div>
+           </div>
+                      
+                    </div>
+                  </div>
+                <!-- Offcanvas end -->
+            </div>
+
+                <div class="col-md-7">
+                    <img class="img-fluid rounded img-thumbnail" src="rama1.jpg" alt="Picture from inside Rama (the Cylindrical Sea)">
+                </div>
+
+            </div>
+        </div>
+      </section>
+       <!-- Book section end -->
+       <div class="bg-dark py-3"></div>
+       <!-- Pricing section start -->
+        <section id="pricing" class="my-5">
+            <div class="container">
+                <div>
+                    <h2 class="text-center">Pricing</h2>
+                    <p class="text-muted lead mb-4 text-center">Select a plan that best suits you</p>
+                </div>
+                <div class="row justify-content-center align-items-center g-1">
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                              <h3 class="card-title">Rendezvous with Rama</h3>
+                              <h6 class="card-subtitle mb-2 text-muted">eBook only</h6>
+                              <p class="card-text display-5">$2.99</p>
+                              <p class="card-text lead text-muted">Includes only the first book in audio form.</p>
+                              <button class="btn btn-dark">Buy now</button>
+
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="card-header">
+                                    MOST POPULAR!
+                                  </div>
+                              <h3 class="card-title">Rendezvous with Rama</h3>
+                              <h6 class="card-subtitle mb-2 text-muted">Hardback edition</h6>
+                              <p class="card-text display-5">29.99$</p>
+                              <p class="card-text lead text-muted">Hardback edition of the first book. Includes free shipping!</p>
+                             
+                            
+                              
+                              <button class="btn btn-primary">Buy now</button>
+                              <p class="card-text"><small class="text-muted">Only 5 remaining!</small></p>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                              <h3 class="card-title">Franchise deal</h3>
+                              <h6 class="card-subtitle mb-2 text-muted">Hardback editions</h6>
+                              <p class="card-text display-5">99.99$</p>
+                              <p class="card-text lead text-muted">Hardback edition of all four books: Includes free shipping! </p>
+                                <button class="btn btn-dark">Buy now</button>
+                                <p class="card-text"><small class="text-muted">Only 9 remaining!</small></p>
+                            </div>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    
+       <!-- Pricing section end -->
+        <div class="bg-secondary py-3"></div>
+       <!-- Film section start -->
+        <section id="film">
+            <div class="container-fluid bg-dark text-white py-5">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-6">
+                        <img src="rama2.jpg" alt="Fan image of a scene from the book." class="img-fluid">
+                    </div>
+
+                    <div class="col-md-5"> 
+                        <div class="text-center mb-2">
+                        <h4>What do we know about the film release so far?</h4>
+                        <small>Click below to find out!</small>
+                        </div>
+                        <!-- Accordion -->
+                        <div class="accordion">
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header text-center" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Who will be directing the film?   
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body  bg-dark text-white">
+                                  <p>On December 15, 2021, The Hollywood Reporter broke the news that Denis Villeneuve is set to direct a movie adaption of 2001: A Space Odyssey author Arthur C. Clarke's classic novel Rendezvous With Rama. 
+                                  </p>
+                                  <p>Villeneuve's film will be produced by Alcon Entertainment, which also produced his previous films Prisoners and Blade Runner: 2049. Freeman and McCreary will also produce through Revelations. </p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Which books will the films cover?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-dark text-white">
+                                  <p>No indication has been given that Villeneuve has any intention to adapt anything other than the original book, especially since for over two decades, the rights to the original book only have been owned by Revelations Entertainment, Morgan Freeman and Lori McCreary's production company.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Has anyone been cast for the film already?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body  bg-dark text-white">
+                                  <p>As of now, there’s no news about any potential writers or actors connected to the project, so we’ll just have to wait and see.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How much funding has been secured for the film?
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body  bg-dark text-white">
+                                   <p>No information has been released yet, as the funding most certainly hasn't yet been agreed upon, but we can expect the budget to be similar to Dune's at around $150 million. </p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    When can we expect the filming to start?
+                                  </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body  bg-dark text-white">
+                                    <p>In terms of a release date, Villeneuve is already set to direct Dune: Part 2 as well as executive produce and direct a few episodes of Dune: The Sisterhood, a prequel series on HBO Max, so it seems Rendezvous With Rama won't be hitting theaters anytime soon. But all good things come to those who wait.</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Film section end -->
+        <div class="bg-secondary py-3"></div>
+        <!-- Contact section start -->
+        <section id="contact">
+          <div class="container-fluid bg-white text-center py-5">
+            
+            <div class="row justify-content-center align-items-center">
+
+           <div class="col-md-8 m-1 shadow-lg p-5 rounded">
+                <h4 class="text-center"> <i class="bi bi-person-lines-fill"></i> If you have any questions or updates, please contact us</h4>
+                <form>
+
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+
+                <div class="form-floating my-3">
+                  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                    <option value="1" selected>I have a question...</option>
+                    <option value="2">You've made a mistake...</option>
+                    <option value="3">I have some insider information...</option>
+                  </select>
+                  <label for="floatingSelect">Type of query</label>
+                </div>
+
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Enter your query here." id="floatingTextarea" style="height: 130px"></textarea>
+                  <label for="floatingTextarea">Enter your query here</label>
+                </div>
+
+                <button class="btn btn-dark mt-2">Submit</button>
+              </form>
+
+              
+              </div>
+
+               <div class="col-md-3 p-5 ">
+                <h5>... or subscribe to our newsletter for updates!</h5>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Subscribe!
+                </button>
+              </div>
+              </div>  
+        </div>
+        </section>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">Enter your information below.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputName1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Agree to receive emails from us.</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact section end -->
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+</body>
+</html>
