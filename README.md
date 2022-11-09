@@ -1,2 +1,2 @@
 # Book-landing-page-2
-Another Bootstrap landing page - this time for Rendezvous with Rama, with some information about the upcoming film release as well (no placeholder text this time - apologies to all lorem ipsum fans).
+Another Bootstrap landing page - this time for Rendezvous with Rama, with some information about the upcoming film release as well (no placeholder text this time - apologies to all lorem ipsum fans). Check out my other landing pages using Boostrap on my GitHub account.
